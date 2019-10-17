@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AP CSP portfolio</title>
+		<link rel="stylesheet" href="unit3.css">
+	</head>
+    <body>
+		<div id="container">
+            <div id="chp3">
+                <h1 id="chp2Title">Chapter 3 Questions</h1>
+                <!--Start of the Chapter 3.2 questions-->
+                <div>
+                    <h3 class="unitPart">Unit 3.2</h3>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">1. Explain the meaning of the statements shown here, both in AP CSP pseudocode and App Inventor. For example, suppose the variable X has the value 10 before the statement is executed. What value would it have after the statement is executed?</h3>
+                        <p class="answer">The image represents setting the variable x to itself plus one. If the global variable x was already 10 before the code is executed, after execution, it becomes 10 plus 1 which is 11.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">2. One aspect of abstraction is that it helps to reduce details to focus on what's relevant. How does the use of a variable, such as dotsize, instead of a value, such as '5', help to reduce detail and focus on what is essential in this program?</h3>
+                        <p class="answer">Attributing a piece of data to a variable helps make the code more abstract as the complex line of code that has a piece of data is now stored inside of a single word variable that can be called on at anytime to be used or changed. This reduces the need to remember the line of code that stores the data and to use a word instead.</p>
+                    </div>
+                </div>
+                <!--End of Unit 3,2-->
+                <div>
+                    <h3 class="unitPart">Unit 3.3</h3>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">1. Decode this message by converting it from binary to ASCII: 1000001 1110000 1110000 0100000 1001001 1101110 1110110 1100101 1101110 1110100 1101111 1110010 0100000 1010010 1001111 1000011 1001011 1010011 0100001 You can use this chart to help you:</h3>
+                        <p class="answer">App spin ventor! Rocks!</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">2. Describe what it means to say that JPEG is a lossy compression technique and whether or not it affects the quality of camera pictures.</h3>
+                        <p class="answer">When a JPEG has gone through lossy compression, the pixels that are repetitive and not needed are removed completely from the file, shortening it. The technique does lower the quality camera pictures but not enough for humans to visibly notice.</p>
+                    </div>
+                    <!--WORK ON THIS QUESTION-->
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">3. Give a specific example of a binary sequence that can represent more than one type of data -- e.g., a number, a color, a character -- and describe how to interpret its different values.</h3>
+                        <p class="answer">A binary sequence that can be 00101 which can represent a number, a coor, and a character. To interpret the different values you can convert the values to decimal, hexcode, and ASCII to get different types of data.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="unitPart">Unit 3.4</h3>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">1.For enhancement #5 (the "If Block Exercise") give a brief description of your solution to this problem. PROVIDE A SCREENSHOT OF YOUR APP'S CODE -- the revised blocks -- and describe how the if/else block works to solve the problem in this case. If appropriate, include a description of any significant problems or bugs you encountered in solving this problem. App Inventor now has a Download Blocks as Image feature (right click on the white space in the blocks editor to choose) that also can be used to take a screenshot of all of your code or the Windows snipping tool can be used.</h3>
+                        <p class="answer">For enhancement #5 I used a function/procedure to do the job that the buttons had to do. The prodecure contained all of the color change code depending on what button was clicked, so if the function was called and it takes in the button value, it takes in the name of the button pressed and compares it with an if else statement, then the conditional will change the color of the pen. The buttons on the otherhand called the function/procedure and gave it its name as a value for the function/procedure to use.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">2. When you use the Camera component to take a picture as the Canvas background, explain why the picture goes away when the app is restarted. HINT: Think about the different hardware components we talked about in an earlier lesson and where on the device the picture is stored. What do you think could be done to prevent the picture from disappearing when the app is restarted?</h3>
+                        <p class="answer">The camera picture goes away when the app is restarted because of how the image taken is not stored anywhere and just replaces the background image of the canvas. To keep the image after a restart, you must store the image into the database and set the canvas to load the image from the database when </p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="unitPart">Unit 3.5</h3>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">1. The Wikipedia article on refactoring talks about code smell and one motivation for engaging in refactoring. What is code smell? Describe briefly two examples of "code smell" and how refactoring would eliminate them.</h3>
+                        <p class="answer">Code smell is code that can lead to problems in the furture. Recfractoring can solve the issue since it changes the code to be more clean and efficient to prevent any issues in the future.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">2. Insert a screenshot of the procedure from your app below.</h3>
+                        <p class="answer"><img src="../Images/procedure.png"></p>
+                    </div>
+                        <div class="questionAnswerContainer">
+                        <h3 class="question">3. What are the advantages of using procedural abstraction? Name at least 2 advantages.</h3>
+                        <p class="answer">Advantages of procedural abstraction are the cleaning up of code to be readable and to combine the functions of different components into one.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="unitPart">Unit 3.6</h3>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">1. (POGIL) Describe an algorithm for identifying the card that was flipped.</h3>
+                        <p class="answer">The algorithm for identifying the flipped cards was to add a row of cards on the outside of the set of cards to even out the face up cards in the rows and columns, then if there was an odd set of face up cards, it would be the flipped one.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">2. (POGIL) The card "trick" shows that it is always possible to identify the card that was flipped as long as only one card was flipped. Would it be possible always to determine if an error occurred if two cards were flipped?</h3>
+                        <p class="answer">Flipping two cards would work only if the two cards do not interfere with each other. Since flipping two cards in the same row or column would cause the amount of flipped cards to be even, it would be very hard to determine what card was flipped.
+                        The column or row from the 2 card flips would also lead to one of the 2 having an error while another having hidden errors.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="unitPart">Unit 3.7</h3>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">1. Explain how the error card trick from the Error Detection lesson uses a parity scheme. Was it an even or odd parity scheme?</h3>
+                        <p class="answer">The error card trick detected the errors by using parity bits to detect any odd values in the row and columns.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">2. What are some of the limitations of using parity bits for error detection?</h3>
+                        <p class="answer">Limitations for using parity bits for error detections are that if an even amount of cards where changed in the rows and cloumns, the user or computer would not be able to detect the error.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">3. Another type of error detection is a check sum. Research what a check sum is and then describe it in your own words. Can a check sum identify where an error occurs?</h3>
+                        <p class="answer">The check sum is a error detecton system that has the sum of different bits within the file and if changes were made, then it gets checksums from the file later to check if the values are different or not.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="unitPart">Unit 3.8</h3>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">1. How are lists used in this app?
+                            Why is a list a useful data abstraction or an abstract data type (ADT) in programming?
+                            Is it easy to add new destinations to the tour?</h3>
+                        <p class="answer"></p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">2. How do APIs simplify complex programming tasks?
+                        Pick an app that you use on your device (e.g. Twitter, Google Maps) and see whether it provides an API
+                        and some of the functions you can control with it. Describe your results below.</h3>
+                        <p class="answer">APIs help simplify complex programming tasks by allowing the program to communicate with a server instead of working on their own to complete the job.
+                        Apps like Google Maps would be enormous in size if it wasn't for APIs. The API allows Google Maps to communicate and send information that the user needs when the time comes.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">3.How is GPS used in this app? Do some research to find out how GPS works
+                            and describe it here in a couple sentences.</h3>
+                        <p class="answer">The GPS is used in the Map App by allowing the map to locate the user's devices location. GPS works by letting the phone communicate with navigation satellites that surround the Earth.
+                        Once a certain amount of sattellites return a signal, the location is send to the user.</p>
+                    </div>
+                    <div class="questionAnswerContainer">
+                        <h3 class="question">4. Insert screenshots of the enhancements that you made below and describe how they work.</h3>
+                        <p class="answer"><img src="../Images/mapCode.png">The enhancement shown in the code is the ability for the app to show the location of the user
+                        the code first starts when the show location button is clicked and then hides all opened markers from the screen and shows a marker on the location of the phone.</p>
+                    </div>
+                    <div>
+                        <h3 class="unitPart">Unit 3.9</h3>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">1. What does it mean to say that data is 'persistent'?</h3>
+                            <p class="answer">When data os persistent is means that the data does not go away after a simple
+                             reset to the system and can be retrieved again in the future, even when the app is closed.</p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">2. What's the difference, in terms of where data is located,
+                            for data stored in a global variable vs. data stored in a database?</h3>
+                            <p class="answer">Data stored in a global variable are temporary and are stored in RAM.
+                             The don't stick around after the app is closed. On the other hand, data in a database stay
+                              after the app is closed and are stored inside of hard drives.</p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">3. Include screenshots and explanations of your enhancements.</h3>
+                            <p class="answer"></p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="unitPart">Unit 3.10</h3>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">1. What is metadata? Give an example of how a piece of metadata could be used
+                             to increase the usefulness of an image or document.</h3>
+                            <p class="answer"></p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">2. What is a model?</h3>
+                            <p class="answer"></p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">3. What's the difference between a raster image and an ASCII representation of a text document?</h3>
+                            <p class="answer"></p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">4. </h3>
+                            <p class="answer"></p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">5. </h3>
+                            <p class="answer"></p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">6. </h3>
+                            <p class="answer"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
