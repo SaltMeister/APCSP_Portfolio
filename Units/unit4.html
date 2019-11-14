@@ -20,34 +20,56 @@
                     <div>
                         <h3 class="unitPart">Unit 4.2</h3>
                         <div class="questionAnswerContainer">
-                            <h3 class="question">1. This app presents a new type of event which you haven't encountered before. What is that new event? How often is it triggered?
-</h3>
-                            <p class="answer"></p>
+                            <h3 class="question">1. This app presents a new type of event which you haven't encountered before. What is that new event? How often is it triggered?</h3>
+                            <p class="answer">The new event is the clock event handler which triggered whenever the timer interval is met.</p>
                         </div>
                         <div class="questionAnswerContainer">
-                            <h3 class="question">2.</h3>
-                            <p class="answer"></p>
+                            <h3 class="question">2. Consider the apps you've developed so far. Can you list all the different events your apps have responded to? What other events do you think an app can respond to? Explore some of the components in App Inventor and see what event handlers they have.</h3>
+                            <p class="answer">The apps that we have created has responded to events such as phone shakes, and phone movement. Some other events that the mit app inventor allows are after recording, or when a recording starts.</p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">3. What are the advantages of writing procedures in programming? Use the procedures you wrote for this app as examples in your response.</h3>
+                            <p class="answer">The advantages of writing procedures in programming are to simplify the main code into smaller chunks of code that can be easily called in the future. In our example, the procedure helps manage the random placement of the target whenever the timer for the clock goes off.</p>
                         </div>
                     </div>
                     <div>
                         <h3 class="unitPart">Unit 4.3</h3>
                         <div class="questionAnswerContainer">
-                            <h3 class="question">1. </h3>
-                            <p class="answer"></p>
+                            <h3 class="question">1. Describe the purpose of each enhancement that you added to your app. Give brief descriptions of the enhancements and provide screenshots of important blocks and describe how you used them to solve certain programming problems. Include these descriptions in your write-up, below.</h3>
+                            <!--Add Images-->
+                            <img src="">
+
+                            <p class="answer">An some enhancements that we made in our project were the increasing difficulty, moving the target a random position, and increasing the score whenever the user hits the target. To increase the difficulty, we set a variable to be the score which the difficulty increases. We used a procedure to make
+                                the target smaller and the interval for moving the target to a random point shorter, then we increased the variable to a value higher than the score and will increase the difficulty later. We implimented the random target position by creating a procedure to move the sprite to a random number on the x and y axis of
+                                the canvas. We inplimented the score by creating a variable that would incremented by 1 everytime the user clicks the target. To solve some problems that would come up such as clicking multiple times on the target for the same score, and the difficulty getting impossibly hard, we implimented a few fixes. For the score,
+                                we had a boolean change to true or false depending on if the user clicked the target, if so it would increase the score and be set back to false. For the impossible difficulty, we created a conditional to limit the timer length and the size of the target after a certain value.</p>
                         </div>
                         <div class="questionAnswerContainer">
-                            <h3 class="question">2.</h3>
-                            <p class="answer"></p>
+                            <h3 class="question">2. When the user touches an ImageSprite, both the Canvas.Touched and ImageSprite.Touched events are triggered. This is important for more complex games. For instance, suppose there are "good" and "bad" sprites in your game. If you hit one, you earn a point. If you hit the other, you lose two points. If you hit the Canvas and don't hit the ImageSprite, you lose 1 point. How would you code this?</h3>
+                            <p class="answer">To code hitting both the canvas and the image sprite, I would get their event handlers for if a user clicked on the screen and then lower the life variable if the user touched the canvas, and increasing the user's score if they touch the image sprite.</p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">3. How do you speed up the movement of the ImageSprite? What is the fastest it could move?</h3>
+                            <p class="answer">The fastest that the ImageSprite could move is as fast as the timer could go which is 1 millisecond.</p>
                         </div>
                     </div>
                     <div>
                         <h3 class="unitPart">Unit 4.4</h3>
                         <div class="questionAnswerContainer">
-                            <h3 class="question">1. </h3>
+                            <h3 class="question">1. Include a screenshot of your app's face drawing, and the code involved, showing the use of a loop and a procedure. You can take a screenshot on most Android devices by pressing the power button and the volume down button and the same time and then emailing the photo from the gallery to yourself, or uploading the image to Google Drive.
+                            To practice for the Create task, describe how two of the algorithms (procedures that you wrote) in the code combine to form a bigger algorithm (the drawFace procedure).</h3>
                             <p class="answer"></p>
                         </div>
                         <div class="questionAnswerContainer">
-                            <h3 class="question">2.</h3>
+                            <h3 class="question">2. Can you draw a triangle with this set of Logo commands? Discuss how or why not.</h3>
+                            <p class="answer"></p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">3. Discuss: If you were designing the Logo language, how would you change some of our basic commands so that it would be easy to draw a triangle and easier to draw other shapes -- i.e., what should the basic commands do that would make drawing easier.</h3>
+                            <p class="answer"></p>
+                        </div>
+                        <div class="questionAnswerContainer">
+                            <h3 class="question">4. What weaknesses do you find in using the procedures (the abstractions) we gave you -- forward, turn -- for drawing simple shapes? How would you change the definitions of these procedures to make it easier to draw shapes? Give a specific example that illustrates how a more powerful set of procedures would improve things.</h3>
                             <p class="answer"></p>
                         </div>
                     </div>
