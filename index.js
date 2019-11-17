@@ -12,5 +12,5 @@ $(document).ready(function()
     $("#chapter4Button").click(function()
     {
         window.location.href = "Units/unit4.html";
-    }
+    });
 });
