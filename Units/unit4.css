@@ -105,3 +105,8 @@ body
 	height: 350px;
 	width: 100%;
 }
+#block 
+{
+    height: auto;
+    width: 500px;
+}
