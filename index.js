@@ -17,4 +17,3 @@ $(document).ready(function()
         window.location.href = "Units/unit6.html";
     });
 });
-});
