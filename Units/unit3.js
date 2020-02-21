@@ -6,15 +6,15 @@ $(document).ready(function()
     });
     $("#chapter4Button").click(function()
     {
-        window.location.href = "unit4.html";
+        window.location.href = "./unit4.html";
     });
     $("#chapter5Button").click(function()
     {
-        window.location.href = "Units/unit5.html";
+        window.location.href = "./unit5.html";
     });
     $("#chapter6Button").click(function()
     {
-        window.location.href = "Units/unit6.html";
+        window.location.href = "./unit6.html";
     });
 });
 });
