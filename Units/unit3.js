@@ -12,4 +12,9 @@ $(document).ready(function()
     {
         window.location.href = "Units/unit5.html";
     });
+    $("#chapter6Button").click(function()
+    {
+        window.location.href = "Units/unit6.html";
+    });
+});
 });
