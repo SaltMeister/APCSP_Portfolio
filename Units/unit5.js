@@ -20,4 +20,8 @@ $(document).ready(function()
     {
         window.location.href = "./unit6.html";
     });
+    $("#chapter7Button").click(function()
+    {
+        window.location.href = "./unit7.html";
+    });
 });
