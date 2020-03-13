@@ -18,6 +18,6 @@ $(document).ready(function()
     });
     $("#chapter7Button").click(function()
     {
-        window.location.href = "./unit7.html";
+        window.location.href = "Units/unit7.html";
     });
 });
